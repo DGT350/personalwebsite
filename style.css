@@ -1,55 +1,49 @@
 
-/* CSS for my personal website */
-
-/* Style for the entire webpage */
+/* Main webpage */
 body {
-    background-color: #f0f4f8;
-    font-family: Arial;
+    background-color: #edf4fa;
+    color: #40566c;
+    font-family: Arial, sans-serif;
     font-size: 18px;
-    color: black;
     margin: 40px;
+    line-height: 1.7;
 }
 
 /* Main heading */
 h1 {
-    color: #003366;
+    background-color: #d9e8f5;
+    color: #24486a;
     text-align: center;
-    background-color: #d9e6f2;
-    padding: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #003366;
+    padding: 25px;
+    border: 2px solid #91b6d4;
 }
 
 /* Section headings */
 h2 {
-    color: #003366;
-    border-bottom: 2px solid #003366;
-    padding: 5px;
+    color: #24486a;
+    border-bottom: 2px solid #91b6d4;
+    padding: 10px;
 }
 
-/* Smaller headings */
 h3 {
-    color: #336699;
+    color: #315f86;
 }
 
 /* Paragraphs */
 p {
-    font-family: Arial;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* Links */
 a {
-    color: blue;
-    text-decoration: none;
+    color: #245b87;
     font-weight: bold;
+    text-decoration: none;
 }
 
-/* Links when mouse is over them */
 a:hover {
-    color: red;
+    color: #426e92;
     text-decoration: underline;
 }
 
@@ -57,40 +51,36 @@ a:hover {
 ul {
     background-color: white;
     padding: 20px 40px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
+    border: 1px solid #c5d8e8;
 }
 
 li {
-    margin: 8px;
+    margin: 10px;
 }
 
 /* Tables */
 table {
     width: 100%;
-    border-collapse: collapse;
     background-color: white;
+    border-collapse: collapse;
 }
 
-/* Table borders */
 table, th, td {
-    border: 2px solid #003366;
+    border: 1px solid #91b6d4;
 }
 
-/* Table headings */
 th {
-    background-color: #d9e6f2;
+    background-color: #d9e8f5;
+    color: #24486a;
     text-align: left;
-    padding: 10px;
+    padding: 12px;
 }
 
-/* Table cells */
 td {
-    padding: 10px;
+    padding: 12px;
 }
 
 /* Horizontal lines */
 hr {
-    border: 1px solid #003366;
+    border: 1px solid #c5d8e8;
 }
